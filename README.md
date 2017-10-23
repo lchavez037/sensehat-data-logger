@@ -42,16 +42,27 @@ GYRO=True
 DELAY=5
 ```
 
-```python FILENAME``` is used to give the CSV file a name. Name is given within the main program of the script.
-```python WRITE_FREQUENCY``` is used to indicate how many logs to store until writing to the CSV file.
-```python TEMP``` is used to append ```python get_temperature()``` in Celsius into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python TEMP_H``` is used to append ```python get_temperature_from_humidity()``` from the humidity sensor in Celsius into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python TEMP_P``` is used to append ```python get_temperature_from_pressure()``` from the pressure sensor in Celsius into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python HUMIDITY``` is used to append ```python get_humidity()``` in percentage of relative humidity into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python PRESSURE``` is used to append ```python get_pressure()``` in Millibars of pressure into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python ORIENTATION``` is used to append ```python get_orientation()``` to get the pitch, roll, and yaw in degrees into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python ACCELERATION``` is used to append ```python get_accelerometer_raw()``` to get the raw x, y and z axis accelerometer data into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python MAG``` is used to append ```python get_compass_raw()``` to get the raw x, y and z axis magnetometer data into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python GYRO``` is used to append ```python get_gyroscope_raw()``` to get the raw x, y and z axis gyroscope data into the CSV file if set to ```python True```. Deactivate by setting to ```python False```
-```python DELAY``` is used to indicate how many seconds to pause between recording of logs.
+**FILENAME** is used to give the CSV file a name. Name is given within the main program of the script.
+
+**WRITE_FREQUENCY** is used to indicate how many logs to store until writing to the CSV file.
+
+**TEMP** is used to append **get_temperature()** in Celsius into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**TEMP_H** is used to append **get_temperature_from_humidity()** from the humidity sensor in Celsius into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**TEMP_P** is used to append **get_temperature_from_pressure()** from the pressure sensor in Celsius into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**HUMIDITY** is used to append **get_humidity()** in percentage of relative humidity into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**PRESSURE** is used to append **get_pressure()** in Millibars of pressure into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**ORIENTATION** is used to append **get_orientation()** to get the pitch, roll, and yaw in degrees into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**ACCELERATION** is used to append **get_accelerometer_raw()** to get the raw x, y and z axis accelerometer data into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**MAG** is used to append **get_compass_raw()** to get the raw x, y and z axis magnetometer data into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**GYRO** is used to append **get_gyroscope_raw()** to get the raw x, y and z axis gyroscope data into the CSV file if set to **True**. Deactivate by setting to **False**.
+
+**DELAY** is used to indicate how many seconds to pause between recording of logs.
 
